@@ -4,6 +4,10 @@ A Streamlit app for asking questions about research papers in PDF format. It
 loads PDFs from `research_papers/`, splits and embeds their contents, retrieves
 relevant passages, and uses Groq to generate an answer based on that context.
 
+## Live demo
+
+[Open the app on Streamlit](https://rag-document-q-a-with-groq-nexpaonwrop7bhip2553ay.streamlit.app/)
+
 ## Features
 
 - Load PDF documents from a local folder
