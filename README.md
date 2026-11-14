@@ -24,8 +24,7 @@ relevant passages, and uses Groq to generate an answer based on that context.
 Clone the repository and enter the project directory:
 
 ```shell
-git clone <repository-url>
-cd <repository-directory>
+git clone <git clone https://github.com/Md-Shahzaib-Raza/RAG-DOCUMENT-Q-A-WITH-GROQ.git>
 ```
 
 Install the project dependencies with uv:
