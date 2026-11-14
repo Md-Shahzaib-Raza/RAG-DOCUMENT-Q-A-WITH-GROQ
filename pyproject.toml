@@ -1,0 +1,30 @@
+[project]
+name = "rag-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Md-Shahzaib-Raza", email = "shahzaib.raza.1969@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.16.0",
+    "langchain>=1.5.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.0",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.3",
+    "langchain-text-splitters>=1.1.3",
+    "pypdf>=7.1.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.3.0",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+rag-bot = "rag_bot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
